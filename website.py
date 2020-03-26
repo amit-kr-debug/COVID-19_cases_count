@@ -11,15 +11,15 @@ def sms_reply():
     msg=request.form.get('Body')
     resp = MessagingResponse()
     if msg=='Give info':
-        resp.message("Hey there, I'm an automated bot, I can help you to get updated with realtime no. of active cases \n Select the option\n 1. Nation wide\n 2. State wise data")
+        resp.message("Hey there, I'm an automated bot, I can help you to get updated with realtime no. of active cases \n Select the option\n a. Nation wide\n b. State wise data")
         msg=request.form.get('Body')
-    elif msg=='1':
+    elif msg=='a':
         nat=str(scrappingValues.nationalCases())
         resp.message("The total no. of active cases nation wide are "+nat)
-    elif msg=='2':
-        resp.message("To get the info of State wise corona affected people\nSelect accordingly\na. Andhra Pradesh\nb. Bihar\nc. Chhattisgarh\nd. Delhi\ne. Goa\nf. Gujarat\ng. Haryana\nh. Himachal Pradesh\ni. Karnataka\nj. Kerala\nk. Madhya Pradesh\nl. Maharashtra\nm. Manipur\nn. Mizoram\no. Odisha\np. Puducherry\nq. Punjab\nr. Rajasthan\ns. Tamil Nadu\nt. Telengana\nu. Chandigarh\nv. Jammu and Kashmir\nw. Ladakh\nx. Uttar Pradesh\ny. Uttarakhand\nz. West Bengal")
-    elif msg.isalpha():
-        if(len(msg)==1 and ord(msg)>96 and ord(msg)<123):
+    elif msg=='b':
+        resp.message("To get the info of State wise corona affected people\nSelect accordingly\n1.Andaman and Nicobar\n2. Andhra Pradesh\n3. Bihar\n4.Chandigarh\n5. Chhattisgarh\n6. Delhi\n7. Goa\n8. Gujarat\n9. Haryana\n10. Himachal Pradesh\n11. Jammu and Kashmir\n12. Karnataka\n13. Kerala\n14. Ladakh\n15. Madhya Pradesh\n16. Maharashtra\n17. Manipur\n18. Mizoram\n19. Odisha\n20. Puducherry\n21. Punjab\n22. Rajasthan\n23. Tamil Nadu\n24. Telengana\n25. Uttarakhand\n26. Uttar Pradesh\n27. West Bengal")
+    elif msg.isdigit():
+        if(int(msg)>0 and int(msg)<28):
             statecases,statename=scrappingValues.statewise(msg)
             resp.message("Total no. of active cases in "+statename+" are "+statecases)
         else :
