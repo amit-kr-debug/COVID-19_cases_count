@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="828f67df-3e8d-4ae5-9603-e3c907e99574" name="Default Changelist" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website.py" beforeDir="false" afterPath="$PROJECT_DIR$/website.py" afterDir="false" />
-    </list>
+    <list default="true" id="828f67df-3e8d-4ae5-9603-e3c907e99574" name="Default Changelist" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hackerrank" />
   </component>
-  <component name="RunManager" selected="Python.scrappingValues">
+  <component name="RunManager" selected="Python.website">
     <configuration name="important" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="COVID-19_cases_count" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.scrappingValues" />
         <item itemvalue="Python.website" />
+        <item itemvalue="Python.scrappingValues" />
         <item itemvalue="Python.important" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
@@ -196,22 +193,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585229061737" />
-    <state width="745" height="180" key="GridCell.Tab.0.bottom" timestamp="1585232133348">
+    <state width="1515" height="180" key="GridCell.Tab.0.bottom" timestamp="1585237648531">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585232133348" />
-    <state width="745" height="180" key="GridCell.Tab.0.center" timestamp="1585232133347">
+    <state width="1515" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585237648531" />
+    <state width="1515" height="180" key="GridCell.Tab.0.center" timestamp="1585237648531">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585232133347" />
-    <state width="745" height="180" key="GridCell.Tab.0.left" timestamp="1585232133347">
+    <state width="1515" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585237648531" />
+    <state width="1515" height="180" key="GridCell.Tab.0.left" timestamp="1585237648531">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585232133347" />
-    <state width="745" height="180" key="GridCell.Tab.0.right" timestamp="1585232133348">
+    <state width="1515" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585237648531" />
+    <state width="1515" height="180" key="GridCell.Tab.0.right" timestamp="1585237648531">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585232133347" />
+    <state width="1515" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585237648531" />
     <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1585228169137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
