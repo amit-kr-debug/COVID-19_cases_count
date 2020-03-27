@@ -20,8 +20,9 @@ def sms_reply():
         resp.message("To get the info of State wise corona affected people\nSelect accordingly\n1. Andaman and Nicobar\n2. Andhra Pradesh\n3. Bihar\n4. Chandigarh\n5. Chhattisgarh\n6. Delhi\n7. Goa\n8. Gujarat\n9. Haryana\n10. Himachal Pradesh\n11. Jammu and Kashmir\n12. Karnataka\n13. Kerala\n14. Ladakh\n15. Madhya Pradesh\n16. Maharashtra\n17. Manipur\n18. Mizoram\n19. Odisha\n20. Puducherry\n21. Punjab\n22. Rajasthan\n23. Tamil Nadu\n24. Telengana\n25. Uttarakhand\n26. Uttar Pradesh\n27. West Bengal")
     elif msg.isdigit():
         if(int(msg)>0 and int(msg)<28):
-            statecases,statename=scrappingValues.statewise(msg)
-            resp.message("Total no. of active cases in "+statename+" are "+statecases)
+            # statecases,statename=scrappingValues.statewise(msg)
+            # resp.message("Total no. of active cases in "+statename+" are "+statecases)
+            resp.message("Ministry Of Health has withdrawn the state-wise data from the official website\nSorry for the inconvenience")
         else :
             resp.message("Invalid request please try giving request \n'Give info'\n and follow the instructions")
     else:
