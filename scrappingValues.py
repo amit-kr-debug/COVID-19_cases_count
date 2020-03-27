@@ -9,11 +9,11 @@ htmlContent=r.content
 
 soup=BeautifulSoup(htmlContent,'html.parser')
 statewises=soup.find_all("td")
-# stateName='a'
-# State_name=ord(stateName)-96
+# stateName='1'
+# State_name=int(stateName)-1
 # statewises = soup.find_all("td")
-# state_wise_cases=str(statewises[220].text)
-# state_name=str(statewises[219].text)
+# state_wise_cases=str(statewises[228])
+# state_name=str(statewises[227])
 # print(state_name, state_wise_cases)
 def nationalCases():
     nationwide = soup.find_all("div")
@@ -22,8 +22,8 @@ def nationalCases():
 def statewise(stateName):
     State_name=int(stateName)-1
     statewises = soup.find_all("td")
-    state_wise_cases=str(statewises[220+6*State_name].text)
-    state_name=str(statewises[219+6*State_name].text)
+    state_wise_cases=str(statewises[228+6*State_name].text)
+    state_name=str(statewises[227+6*State_name].text)
 
     return state_wise_cases,state_name
 
