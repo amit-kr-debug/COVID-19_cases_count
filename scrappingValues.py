@@ -12,7 +12,7 @@ soup=BeautifulSoup(htmlContent,'html.parser')
 stateName='3'
 State_name=int(stateName)-1
 tempData = ""
-# for t in soup.find_all('tbody')[7].find_all('tr'):
+# for t in soup.find_all('tbody')[9].find_all('tr'):
 #     tempData += t.get_text()
 # tempData = tempData[1:]
 # StateList = []
@@ -36,7 +36,7 @@ def nationalCases():
 def statewise(stateName):
     State_name=int(stateName)-1
     tempData = ""
-    for t in soup.find_all('tbody')[7].find_all('tr'):
+    for t in soup.find_all('tbody')[9].find_all('tr'):
         tempData += t.get_text()
     tempData = tempData[1:]
     StateList = []
