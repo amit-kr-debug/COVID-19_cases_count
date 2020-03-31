@@ -32,8 +32,7 @@ soup=BeautifulSoup(htmlContent,'html.parser')
 # print(tempData)
 # print(total_confirmed,death_cases,recovered_cases)
 def nationalCases():
-    nationwide = soup.find_all("div")
-    active_cases = int((nationwide[31].text)[1:6])
+    active_cases = soup.find_all('li',{'class':'bg-blue'})[0].find_all('strong')[0].get_text()
     tempData = ""
     for t in soup.find_all('section', {'id': 'state-data', 'class': 'site-update'})[0].find_all('tr'):
         tempData += t.get_text()
@@ -45,7 +44,7 @@ def nationalCases():
     recovered_cases = StateList[30][1]
     return active_cases,total_confirmed,death_cases,recovered_cases
 def statewise(stateName):
-    State_name=int(stateName)-1
+    State_name=int(stateName)
     tempData = ""
     for t in soup.find_all('section', {'id': 'state-data', 'class': 'site-update'})[0].find_all('tr'):
         tempData += t.get_text()
