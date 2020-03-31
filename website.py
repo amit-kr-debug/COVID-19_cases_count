@@ -11,7 +11,7 @@ def sms_reply():
     msg=request.form.get('Body')
     resp = MessagingResponse()
     if msg=='Give info':
-        resp.message("Hey there, I'm an automated bot, I can help you to get updated with realtime no. of active cases \n Select the option\n a. Nation wide\n b. State wise data")
+        resp.message("Hey there, I'm an automated bot, I can help you to get updated with realtime no. of active cases \nSelect the option\na. Nation wide\nb. State wise data")
         msg=request.form.get('Body')
     elif msg=='a':
         active,total,death,recovered=scrappingValues.nationalCases()
