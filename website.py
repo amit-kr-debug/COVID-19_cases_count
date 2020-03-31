@@ -15,7 +15,7 @@ def sms_reply():
         msg=request.form.get('Body')
     elif msg=='a':
         active,total,death,recovered=scrappingValues.nationalCases()
-        resp.message("The no. cases of COVID-19 Nation wide are\nTotal confirmed cases:"+total+"\nWhich includes:-\nActive cases: "+active+"\Death cases: "+death+"\nRecovered: "+recovered)
+        resp.message("The no. cases of COVID-19 Nation wide are\nTotal confirmed cases:"+total+"\nWhich includes:-\nActive cases: "+active+"\nDeath cases: "+death+"\nRecovered: "+recovered)
     elif msg=='b':
         resp.message("To get the info of State wise corona affected people\nSelect accordingly\n1. Andhra Pradesh\n2. Andaman and Nicobar\n3. Bihar\n4. Chandigarh\n5. Chhattisgarh\n6. Delhi\n7. Goa\n8. Gujarat\n9. Haryana\n10. Himachal Pradesh\n11. Jammu and Kashmir\n12. Karnataka\n13. Kerala\n14. Ladakh\n15. Madhya Pradesh\n16. Maharashtra\n17. Manipur\n18. Mizoram\n19. Odisha\n20. Puducherry\n21. Punjab\n22. Rajasthan\n23. Tamil Nadu\n24. Telengana\n25. Uttarakhand\n26. Uttar Pradesh\n27. West Bengal")
     elif msg.isdigit():
