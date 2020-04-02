@@ -21,7 +21,7 @@ def sms_reply():
             "To get the info of State wise corona affected people\nSelect accordingly\n1. Andhra Pradesh\n2. Andaman and Nicobar\n3. Assam\n4. Bihar\n5.Chandigarh\n6. Chhattisgarh\n7. Delhi\n8. Goa\n9. Gujarat\n10. Haryana\n11. Himachal Pradesh\n12. Jammu and Kashmir\n13. Jharkhand\n14. Karnataka\n15. Kerala\n16. Ladakh\n17. Madhya Pradesh\n18. Maharashtra\n19. Manipur\n20. Mizoram\n21. Odisha\n22. Puducherry\n23. Punjab\n24. Rajasthan\n25. Tamil Nadu\n26. Telengana\n27. Uttarakhand\n28. Uttar Pradesh\n29. West Bengal")
 
     elif msg.isdigit():
-        if(int(msg)>0 and int(msg)<28):
+        if(int(msg)>0 and int(msg)<30):
             statecases,statename=scrappingValues.statewise(msg)
             resp.message("Total no. of confirmed cases in "+statename+" are "+statecases)
             # resp.message("Ministry Of Health has withdrawn the state-wise data from the official website\nSorry for the inconvenience")
