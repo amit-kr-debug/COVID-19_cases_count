@@ -17,10 +17,11 @@ soup=BeautifulSoup(htmlContent,'html.parser')
 # StateList = []
 # for i in tempData.split("\n\n"):
 #     StateList.append(i.split("\n"))
-# total_confirmed=StateList[28][1]
-# death_cases=StateList[29][0]
-# recovered_cases=StateList[30][1]
+# # total_confirmed=StateList[30][1]
+# death_cases=soup.find_all('li',{'class':'bg-red'})[0].find_all('strong')[0].get_text()
+# recovered_cases=soup.find_all('li',{'class':'bg-green'})[0].find_all('strong')[0].get_text()
 #
+
 #
 #old code for state data
 # stateName='1'
@@ -30,18 +31,12 @@ soup=BeautifulSoup(htmlContent,'html.parser')
 # state_name=str(statewises[227])
 # print(state_name, state_wise_cases,"\n",StateList)
 # print(tempData)
-# print(total_confirmed,death_cases,recovered_cases)
+# print(total_confirmed,death_cases,recovered_cases,StateList)
 def nationalCases():
     active_cases = soup.find_all('li',{'class':'bg-blue'})[0].find_all('strong')[0].get_text()
-    tempData = ""
-    for t in soup.find_all('section', {'id': 'state-data', 'class': 'site-update'})[0].find_all('tr'):
-        tempData += t.get_text()
-    StateList = []
-    for i in tempData.split("\n\n"):
-        StateList.append(i.split("\n"))
-    total_confirmed = StateList[28][1]
-    death_cases = StateList[29][0]
-    recovered_cases = StateList[30][1]
+    death_cases = soup.find_all('li', {'class': 'bg-red'})[0].find_all('strong')[0].get_text()
+    recovered_cases = soup.find_all('li', {'class': 'bg-green'})[0].find_all('strong')[0].get_text()
+    total_confirmed = str(int(active_cases)+ int(death_cases)+ int(recovered_cases))
     return active_cases,total_confirmed,death_cases,recovered_cases
 def statewise(stateName):
     State_name=int(stateName)
@@ -69,3 +64,7 @@ def statewise(stateName):
     # state_name=str(statewises[227+6*State_name].text)
 
     return state_wise_cases,state_name
+
+
+# a,b,c,d=nationalCases()
+# print(a,b,c,d)
