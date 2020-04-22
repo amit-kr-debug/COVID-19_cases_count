@@ -33,7 +33,7 @@ def sms_reply():
         else :
             resp.message("Invalid request please try giving request \n'Give info'\n and follow the instructions")
     else:
-        resp.message("Invalid request please try giving request \n'Give info'\n and follow the instructions")
+        resp.message("Invalid request please try giving request \n'Give info' or 'hi'\n and follow the instructions")
     return str(resp)
 if __name__ == "__main__":
     app.run(debug=True)
