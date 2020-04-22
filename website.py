@@ -23,7 +23,7 @@ def sms_reply():
     elif msg=='c':
         active, total, death, recovered = nammaMysuru.nammaMysuru()
         resp.message(
-            "The no. cases of COVID-19 in Mysuru are\nTotal confirmed cases: " + total + "\nWhich includes:-\nActive cases: " + active +"\nRecovered: " + recovered + "\nDeath cases: " + death)
+            "The no. cases of COVID-19 in Mysuru are\nTotal confirmed cases: " + total +"Which includes:-\nActive cases: " + active +"Recovered: " + recovered + "Death cases: " + death)
 
     elif msg.isdigit():
         if(int(msg)>0 and int(msg)<31):
