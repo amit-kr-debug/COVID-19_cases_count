@@ -31,9 +31,9 @@ def sms_reply():
             # resp.message("Ministry Of Health has withdrawn the state-wise data from the official website\nSorry for the inconvenience")
         else:
             resp.message(
-                "I'm not sure what you are asking for :-(\nBut,I can help you to get updated with realtime no. of active cases \nSelect the option\na. Nation wide\nb. State wise data\nc. Mysuru")
+                "I'm not sure what you are asking for 😕\nBut,I can help you to get updated with realtime no. of active cases \nSelect the option\na. Nation wide\nb. State wise data\nc. Mysuru")
     else:
-        resp.message("I'm not sure what you are asking for :-(\nBut,I can help you to get updated with realtime no. of active cases \nSelect the option\na. Nation wide\nb. State wise data\nc. Mysuru")
+        resp.message("I'm not sure what you are asking for 😕\nBut,I can help you to get updated with realtime no. of active cases \nSelect the option\na. Nation wide\nb. State wise data\nc. Mysuru")
     return str(resp)
 if __name__ == "__main__":
     app.run()
