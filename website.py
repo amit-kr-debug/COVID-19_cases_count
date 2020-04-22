@@ -11,7 +11,7 @@ def hello():
 def sms_reply():
     msg=request.form.get('Body')
     resp = MessagingResponse()
-    if msg=='Give info' or 'hi':
+    if msg== ('Give info' or 'hi'):
         resp.message("Hey there, I'm an automated bot, I can help you to get updated with realtime no. of active cases \nSelect the option\na. Nation wide\nb. State wise data\nc. Mysuru")
         msg=request.form.get('Body')
     elif msg=='a':
