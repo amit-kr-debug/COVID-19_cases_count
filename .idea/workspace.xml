@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="828f67df-3e8d-4ae5-9603-e3c907e99574" name="Default Changelist" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/COVID-19_cases_count.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COVID-19_cases_count.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nammaMysuru.py" beforeDir="false" afterPath="$PROJECT_DIR$/nammaMysuru.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website.py" beforeDir="false" afterPath="$PROJECT_DIR$/website.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +33,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SmartBuy" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.nammaMysuru">
+  <component name="RunManager" selected="Python.website">
     <configuration name="important" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="COVID-19_cases_count" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,9 +144,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.website" />
         <item itemvalue="Python.nammaMysuru" />
         <item itemvalue="Python.scrappingValues" />
-        <item itemvalue="Python.website" />
         <item itemvalue="Python.important" />
         <item itemvalue="Python.main" />
       </list>
@@ -191,45 +190,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="436" y="11" key="CommitChangelistDialog2" timestamp="1585232130580">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598790659339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="436" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585232130580" />
-    <state x="1010" y="261" key="FileChooserDialogImpl" timestamp="1589038484096">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598790659339" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1593589162069">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="1010" y="261" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589038484096" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1589040416067">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593589162069" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1593589162069">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589040416067" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1589040416067">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593589162069" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1593589162069">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589040416067" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1589040416067">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593589162069" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1593589162069">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589040416067" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1589040416067">
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593589162069" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1598789818411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589040416067" />
-    <state x="277" y="55" key="SettingsEditor" timestamp="1589038487657">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589038487657" />
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1587569579342">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587569579342" />
-    <state x="580" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585222150705">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="580" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1585222150705" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585686374499">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585686374499" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598789818411" />
   </component>
 </project>

@@ -4,9 +4,13 @@ import scrappingValues
 import nammaMysuru
 # from bs4 import BeautifulSoup
 app = Flask(__name__)
+
+
 @app.route("/")
 def hello():
     return "Home page"
+
+
 @app.route("/sms", methods=['POST'])
 def sms_reply():
     msg = request.form.get('Body')
@@ -35,5 +39,7 @@ def sms_reply():
     else:
         resp.message("I'm not sure what you are asking for 😕\nBut,I can help you to get updated with realtime no. of active cases \nSelect the option\na. Nation wide\nb. State wise data\nc. Mysuru")
     return str(resp)
+
+
 if __name__ == "__main__":
     app.run()
